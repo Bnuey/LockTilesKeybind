@@ -34,7 +34,7 @@ namespace LockTilesKeybind
             }
             mls = BepInEx.Logging.Logger.CreateLogSource(modGUID);
 
-            mls.LogInfo("TileLocker Enabled: Press " + " In game to lock/unlock tiles");
+            mls.LogInfo("TileLocker Enabled: Press R in game to lock/unlock tiles");
 
             harmony.PatchAll();
 
